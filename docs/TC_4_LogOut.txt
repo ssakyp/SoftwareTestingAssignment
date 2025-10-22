@@ -1,0 +1,7 @@
+TC 4 — Log Out
+Objective: Verify that a logged-in user can log out.
+Steps:
+1. Log in as a valid user.
+2. Click "Log Out".
+3. Verify that the Log In button is visible again.
+Expected Result: The user is successfully logged out.

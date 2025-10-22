@@ -1,4 +1,0 @@
-TC 1
-Login
-1. Open broswer
-2. Click Log In button

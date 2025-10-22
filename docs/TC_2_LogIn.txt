@@ -1,0 +1,10 @@
+TC 2 — Login
+Objective: Verify that a user can log in successfully.
+Precondition: User account exists.
+Steps:
+1. Open the browser and navigate to the website.
+2. Click the "Log In" button.
+3. Enter valid username and password.
+4. Click "Log In".
+5. Verify that the user is logged in (Log Out button visible).
+Expected Result: The user is successfully logged in.

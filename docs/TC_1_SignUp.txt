@@ -1,0 +1,9 @@
+TC 1 — Sign Up
+Objective: Verify that a new user can create an account.
+Steps:
+1. Open the browser and go to the main page.
+2. Click "Sign Up".
+3. Enter a unique username and password.
+4. Click "Sign Up" to register.
+5. Accept the success alert.
+Expected Result: The system displays a confirmation message such as "Sign up successful."

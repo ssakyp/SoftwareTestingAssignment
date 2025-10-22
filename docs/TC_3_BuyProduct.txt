@@ -1,0 +1,11 @@
+TC 3 — Buy Product
+Objective: Verify that a user can buy a product successfully.
+Steps:
+1. Log in to the website.
+2. Select product "Samsung Galaxy S6".
+3. Click "Add to Cart" and accept the confirmation alert.
+4. Open the "Cart" and click "Place Order".
+5. Fill out order form details (name, country, city, card info, month, year).
+6. Click "Purchase".
+7. Verify success message "Thank you for your purchase!" and click "OK".
+Expected Result: The system displays "Thank you for your purchase!" and the modal closes.
