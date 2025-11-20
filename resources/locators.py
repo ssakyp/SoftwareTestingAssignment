@@ -12,7 +12,7 @@ loginPasswordField = '//*[@id="loginpassword"]'
 logInFormButton = '//*[@id="logInModal"]/div/div/div[3]/button[2]'
 logOutButton = '//*[@id="logout2"]'
 
-productSamsungGalaxyS6 = '//a[text()="Samsung galaxy s6"]'
+productSamsungGalaxyS6 = '//a[contains(text(),"Samsung galaxy s6")]'
 addToCartButton = '//a[@onclick="addToCart(1)"]'
 cartButton = '//*[@id="cartur"]'
 placeOrderButton = '//button[@data-target="#orderModal"]'
