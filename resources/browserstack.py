@@ -26,6 +26,11 @@ bstack_options = {
 }
 
 
+if "safari" in BROWSER:
+    bstack_options["os"] = "OS X"
+    bstack_options["osVersion"] = "Monterey"
+
+
 OPTIONS = None
 try:
     if "chrome" in BROWSER:
