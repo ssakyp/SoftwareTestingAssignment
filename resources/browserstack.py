@@ -1,6 +1,5 @@
 import os
 
-# BrowserStack credentials from environment
 BS_USERNAME = os.getenv("BROWSERSTACK_USERNAME", "")
 BS_ACCESS_KEY = os.getenv("BROWSERSTACK_ACCESS_KEY", "")
 
@@ -15,7 +14,7 @@ if not REMOTE_URL:
 BROWSER = os.getenv("BROWSER", "chrome").lower()
 BROWSER_VERSION = os.getenv("BROWSER_VERSION", "latest")
 
-# Build BrowserStack options payload
+
 bstack_options = {
     "os": os.getenv("BS_OS", "Windows"),
     "osVersion": os.getenv("BS_OS_VERSION", "11"),
@@ -26,7 +25,7 @@ bstack_options = {
     "sessionName": os.getenv("BS_SESSION", BROWSER)
 }
 
-# Create an Options object appropriate for the selected browser and attach bstack:options
+
 OPTIONS = None
 try:
     if "chrome" in BROWSER:
